@@ -1,0 +1,15 @@
+
+.lilium{
+  position:absolute;
+  left:50%;
+  bottom:0;
+  width:min(44vw,760px);
+  height:auto;
+  transform-origin:50% 60%;
+  background:url("../images/lilium-pink.png") no-repeat center bottom/contain;
+  animation:lilium-breathe 7s ease-in-out infinite alternate;
+}
+@keyframes lilium-breathe{
+  from{transform:translateX(-50%) scale(0.98) rotate(-0.6deg)}
+  to{transform:translateX(-50%) scale(1.03) rotate(0.6deg)}
+}
